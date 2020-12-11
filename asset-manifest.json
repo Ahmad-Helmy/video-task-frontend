@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/video-task-frontend/static/css/main.9d1c7f47.chunk.css",
+    "main.js": "/video-task-frontend/static/js/main.99a53b20.chunk.js",
+    "main.js.map": "/video-task-frontend/static/js/main.99a53b20.chunk.js.map",
+    "runtime-main.js": "/video-task-frontend/static/js/runtime-main.f4b2069e.js",
+    "runtime-main.js.map": "/video-task-frontend/static/js/runtime-main.f4b2069e.js.map",
+    "static/css/2.d2b12490.chunk.css": "/video-task-frontend/static/css/2.d2b12490.chunk.css",
+    "static/js/2.e721e166.chunk.js": "/video-task-frontend/static/js/2.e721e166.chunk.js",
+    "static/js/2.e721e166.chunk.js.map": "/video-task-frontend/static/js/2.e721e166.chunk.js.map",
+    "static/js/3.0861ecde.chunk.js": "/video-task-frontend/static/js/3.0861ecde.chunk.js",
+    "static/js/3.0861ecde.chunk.js.map": "/video-task-frontend/static/js/3.0861ecde.chunk.js.map",
+    "index.html": "/video-task-frontend/index.html",
+    "static/css/2.d2b12490.chunk.css.map": "/video-task-frontend/static/css/2.d2b12490.chunk.css.map",
+    "static/css/main.9d1c7f47.chunk.css.map": "/video-task-frontend/static/css/main.9d1c7f47.chunk.css.map",
+    "static/js/2.e721e166.chunk.js.LICENSE.txt": "/video-task-frontend/static/js/2.e721e166.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4b2069e.js",
+    "static/css/2.d2b12490.chunk.css",
+    "static/js/2.e721e166.chunk.js",
+    "static/css/main.9d1c7f47.chunk.css",
+    "static/js/main.99a53b20.chunk.js"
+  ]
+}
