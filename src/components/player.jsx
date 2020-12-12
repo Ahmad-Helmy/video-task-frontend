@@ -18,25 +18,30 @@ class Payer extends Component {
       <React.Fragment>
         <div className="player">
           <div
-            className={this.titleClasses()}
-            style={{ opacity: this.state.status === "pause" && 1 }}
+            style={{ height: this.ratioStyle() }}
+            className="position-relative w-100"
           >
-            <h5 style={{ color: this.props.titleColor }}>
-              {this.props.titleText}
-            </h5>
+            <div
+              className={this.titleClasses()}
+              style={{ opacity: this.state.status === "pause" && 1 }}
+            >
+              <h5 style={{ color: this.props.titleColor }}>
+                {this.props.titleText}
+              </h5>
+            </div>
+            <video
+              onPause={() => {
+                this.setState({ status: "pause" });
+              }}
+              onPlay={() => {
+                this.setState({ status: "play" });
+              }}
+              src={this.props.video}
+              height="100%"
+              width="100%"
+              controls
+            ></video>
           </div>
-          <video
-            onPause={() => {
-              this.setState({ status: "pause" });
-            }}
-            onPlay={() => {
-              this.setState({ status: "play" });
-            }}
-            src={this.props.video}
-            height={this.ratioStyle()}
-            width="100%"
-            controls
-          ></video>
         </div>
       </React.Fragment>
     );

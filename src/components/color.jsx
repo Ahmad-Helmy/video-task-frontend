@@ -8,7 +8,7 @@ const Color = (props) => {
     <React.Fragment>
       <label> Title color:</label>
       <ColorPicker
-        width="200"
+        width="150"
         color={color}
         onChange={(color) => {
           props.changeColor(color);
